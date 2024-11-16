@@ -1,0 +1,189 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+@media screen and (min-width: 600px) {
+  .upper-primary-nav {
+    background-color: rgb(46, 66, 123);
+    width: 100%;
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    gap: 3em;
+  }
+
+  .logo {
+    display: flex;
+    margin-top: 0.3em;
+    margin-bottom: 1.2em;
+  }
+
+  .logo span {
+    display: block;
+    margin-left: 0.5em;
+  }
+
+  .upper-primary-nav form {
+    margin-left: 4em;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+  }
+
+  .credentials {
+    display: flex;
+    height: 2em;
+    flex-flow: row;
+    gap: 0.2em;
+  }
+
+  .credentials input {
+    width: 36%;
+  }
+
+  .remember-me {
+    display: flex;
+  }
+
+  .upper-secondary-nav {
+    background-color: rgb(207, 206, 206);
+    width: 100%;
+    font-size: 0.8em;
+    padding: 0.3em 0em;
+    height: 2%;
+  }
+
+  .upper-secondary-nav ul {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    gap: 1em;
+    margin-left: 20%;
+  }
+
+  .upper-secondary-nav li {
+    padding: 0.5em 5px;
+  }
+
+  .main-body{
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    
+  }
+
+  .wall{
+    width: 50%;
+    margin: 2em 0em;
+  }
+
+  .wall-form{
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+
+.wall-form-container{
+    margin: 1em;
+    display: flex;
+    flex-flow: column;
+}
+
+  .wall-form-container textarea{
+    width: 100%;
+    font-size: 0.8em;
+    padding-left: 4px;
+    height: 60%;
+    margin-bottom: 1em;
+  }
+
+  .button-actions{
+    display: flex;
+  }
+
+  .wall-posts{
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+
+  .wall-post-user-image img{
+    height: 50px;
+  }
+  aside {
+    width: 25%;
+    margin: 2em;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+  }
+
+  .my-friends {
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+
+  .top-bar {
+    background-color: rgb(46, 66, 123);
+    color: white;
+    padding: 0.3em;
+  }
+  .friend-grid {
+    display: grid;
+    padding: 1em 2em;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 0px;
+    justify-items: center;
+  }
+
+  .friend-grid img {
+    border: 1px solid black;
+    width: 80%;
+    height: fit-content;
+  }
+
+  .my-friends button {
+    background-color: rgb(46, 66, 123);
+    color: white;
+    padding:0.5em 0.3em;
+    margin-bottom: 0.6em;
+    margin-left: 0.6em;
+    border-radius: 3px;
+  }
+
+  .latest-groups {
+    border: 1px solid black;
+    margin: auto auto;
+    border-radius: 3px;
+  }
+
+  .latest-groups button {
+    background-color: rgb(46, 66, 123);
+    color: white;
+    padding: 0.5em 0.3em;
+    margin-bottom: 0.6em;
+    margin-left: 0.6em;
+    border-radius: 3px;
+  }
+
+  .group {
+    border: 1px solid black;
+    padding: 0.5em 0.2em;
+    margin: 0.7em;
+  }
+
+  .group img {
+    float: left;
+    margin: 0.5em;
+  }
+  .group div {
+    font-size: 0.8em;
+  }
+}
