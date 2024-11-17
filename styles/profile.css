@@ -1,4 +1,31 @@
 .profile{
     display: flex;
     flex-flow:column;
+    width: 37%;
+    margin: 3em 0em;
+}
+
+.profile-container p{
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+.profile-container hr{
+    border: 1px solid gray;
+}
+
+.profile-info{
+    display:flex;
+    font-size: 0.7em;
+    gap: 4em;
+    margin: 1em 0em;
+}
+
+.profile-info-img{
+    border: 1px double gray;
+    padding: 3px;
+}
+.profile-info-img img{
+    height: 140px;
+    width: 140px;
 }

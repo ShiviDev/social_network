@@ -2,8 +2,13 @@
     border: 1px solid grey;
     border-radius: 3px;
        
-   }
-   
+}
+
+.wall-form .top-bar{
+    padding: 8px 8px;
+    font-size: 0.8em;
+}
+
 .wall-form-container{
     margin: 1em;
     display: flex;
