@@ -143,25 +143,83 @@
     padding: 5px;
     display: flex;
     flex-flow: column;
+    background-color: gray;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wall-post-user-image{
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    gap:1em;
   }
 
   .wall-post-user-image img{
-    height: 50px;
+    height: 55px;
+    width: 55px;
+  }
+
+  .wall-post-content{
+    display: flex;
+    padding: 10px;
+    flex-flow:column;
+    gap:0.7em;
+  }
+
+  .post p{
+    border: 1px solid gray;
+    padding: 0.7em;
+    border-radius: 6px;
+    margin: 0em 1em;
   }
 
   .reaction-buttons{
     display: flex;
     flex-flow:row;
+    gap:0.7em;
+    margin-left: 1.2em;
+  }
+
+  .reaction-buttons button{
+    background-color: white;
+    border: none;
+    color:blue;
   }
 
   .comment-form{
     display: flex;
+    margin:0em 1em;
+    gap: 4px;
+  }
+
+  .comment-form input{
     width: 100%;
+    border-radius: 3px;
+    padding: 5px 8px;
+  }
+
+  .comment-form button{
+    padding: 5px 7px;
+    background-color: white;
+    box-shadow: none;
+  } 
+
+  .comment{
+    display: flex;
+    padding: 5px;
+    margin: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid grey;
+    gap: 8px;
   }
 
   .comments img{
     width: 30px;
+    height: 30px;
   }
+
 
   aside {
     width: 18%;
