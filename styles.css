@@ -87,7 +87,7 @@
   }
 
   .wall-form{
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 3px;
   }
 
@@ -101,24 +101,70 @@
     width: 100%;
     font-size: 0.8em;
     padding-left: 4px;
+    padding-top: 4px;
     height: 60%;
     margin-bottom: 1em;
   }
 
   .button-actions{
     display: flex;
+    justify-content: space-between;
   }
 
+  .button-actions button{
+    padding: 4px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1.4em;
+  }
+
+  .media-button-actions button{
+    border-radius: 0;
+  }
+
+  .media-button-actions button img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+
+
   .wall-posts{
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 3px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+  }
+
+  .img-container{
+    border: 1px solid gray;
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
   }
 
   .wall-post-user-image img{
     height: 50px;
   }
+
+  .reaction-buttons{
+    display: flex;
+    flex-flow:row;
+  }
+
+  .comment-form{
+    display: flex;
+    width: 100%;
+  }
+
+  .comments img{
+    width: 30px;
+  }
+
   aside {
-    width: 25%;
+    width: 18%;
     margin: 2em;
     display: flex;
     flex-flow: column;
@@ -138,8 +184,10 @@
   .friend-grid {
     display: grid;
     padding: 1em 2em;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px 0px;
+    grid-template-columns: repeat(3, 0.4fr);
+    gap: 0.8em 0px;
+    width:90%;
+    margin: auto auto;
     justify-items: center;
   }
 
@@ -160,7 +208,7 @@
 
   .latest-groups {
     border: 1px solid black;
-    margin: auto auto;
+    margin: auto 0;
     border-radius: 3px;
   }
 
