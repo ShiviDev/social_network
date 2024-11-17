@@ -1,0 +1,30 @@
+.photos-container{
+    display: flex;
+    flex-flow: column;
+    width: 37%;
+    margin: 3em 0em;
+}
+
+.photos-container>p{
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+
+
+.photos{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 1em;
+}
+
+.photo{
+    border: 1px solid grey;
+    padding: 4px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+}
