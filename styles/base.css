@@ -65,6 +65,7 @@
     justify-content: center;
   }
 
+
   .upper-secondary-nav ul {
     display: flex;
     flex-flow: row;
@@ -77,14 +78,17 @@
     padding: 0.5em 5px;
   }
 
+  .upper-secondary-nav li a{
+    color: black;
+    text-decoration: none;
+  }
+
   .main-body{
     display:flex;
     flex-flow:row;
     justify-content: center;
     
   }
-
-  
 
   .aside {
     width: 18%;

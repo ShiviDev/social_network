@@ -1,0 +1,43 @@
+.wall-form{
+    border: 1px solid grey;
+    border-radius: 3px;
+       
+   }
+   
+.wall-form-container{
+    margin: 1em;
+    display: flex;
+    flex-flow: column;
+}
+   
+.wall-form-container textarea{
+    width: 100%;
+    font-size: 0.8em;
+    padding-left: 4px;
+    padding-top: 4px;
+    height: 60%;
+    margin-bottom: 1em;
+}
+   
+.button-actions{
+    display: flex;
+    justify-content: space-between;
+}
+   
+.button-actions button{
+    padding: 4px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1.4em;
+}
+   
+.media-button-actions button{
+    border-radius: 0;
+}
+   
+.media-button-actions button img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+   
